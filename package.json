@@ -1,0 +1,18 @@
+{
+  "name": "strahd-must-die",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strahd Must Die — a horror frame for Daggerheart, packaged as Foundry VTT compendiums.",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "release": "node tools/build.mjs && node tools/release.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.4",
+    "archiver": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "strahd-must-die",
+  "title": "Strahd Must Die — A Horror Frame for Daggerheart",
+  "description": "<p>The complete <strong>Strahd Must Die</strong> zine by DNGN Club Games as Foundry VTT compendiums: a gothic-horror frame for Daggerheart with the Doom Track, Waning Hope, Sanctuaries, Uneasy Allies, the Conspiracy of Ravens and its 54 Omen Cards, Cinematic Travel, The Mist, new conditions, Agents of Strahd and Strahd von Zarovich, the Blood Baron.</p>",
+  "version": "1.0.0",
+  "authors": [
+    { "name": "Jack Panic (DNGN Club Games)" },
+    { "name": "fernandowrpg", "url": "https://github.com/fernandowrpg" }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": ["scripts/strahd-must-die.mjs"],
+  "styles": ["styles/strahd-must-die.css"],
+  "languages": [
+    { "lang": "en", "name": "English", "path": "lang/en.json" },
+    { "lang": "pt-BR", "name": "Português (Brasil)", "path": "lang/pt-BR.json" }
+  ],
+  "packs": [
+    {
+      "name": "journals",
+      "label": "Strahd Must Die — Zine",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "banner": "modules/strahd-must-die/assets/ui/banner-journals.webp",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "omen-deck",
+      "label": "Strahd Must Die — Omen Deck",
+      "path": "packs/omen-deck",
+      "type": "Cards",
+      "banner": "modules/strahd-must-die/assets/ui/banner-cards.webp",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    },
+    {
+      "name": "tables",
+      "label": "Strahd Must Die — Roll Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "banner": "modules/strahd-must-die/assets/ui/banner-tables.webp",
+      "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Strahd Must Die",
+      "sorting": "m",
+      "color": "#5c0010",
+      "packs": ["journals", "omen-deck", "tables"]
+    }
+  ],
+  "media": [
+    { "type": "cover", "url": "modules/strahd-must-die/assets/splash/cover.webp" }
+  ],
+  "url": "https://github.com/fernandowrpg/strahd-must-die",
+  "manifest": "https://github.com/fernandowrpg/strahd-must-die/releases/latest/download/module.json",
+  "download": "https://github.com/fernandowrpg/strahd-must-die/releases/download/v1.0.0/module.zip",
+  "readme": "https://github.com/fernandowrpg/strahd-must-die/blob/main/README.md",
+  "changelog": "https://github.com/fernandowrpg/strahd-must-die/blob/main/CHANGELOG.md",
+  "bugs": "https://github.com/fernandowrpg/strahd-must-die/issues",
+  "license": "LICENSE.md"
+}
